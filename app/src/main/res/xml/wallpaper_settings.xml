@@ -3,28 +3,6 @@
     xmlns:h3nr1ke="http://schemas.android.com/apk/res/com.lwp.falling"
     android:key="wallpaper_settings"
     android:title="@string/wallpaper_settings" >
-    
-    
-    <PreferenceCategory android:title="@string/category2" >
-        <com.lwp.falling.MIP
-            android:key="rate"
-            android:layout="@layout/image_preference" />
-        <!--  
-        <com.lwp.falling.MIP
-            android:key="recommend2"
-            android:layout="@layout/image_preference" />
-        
-       -->
-        <com.lwp.falling.MIP
-            android:key="more"
-            android:layout="@layout/image_preference" />
-         <!--
-        <com.lwp.falling.MIP
-            android:key="sharing"
-            android:layout="@layout/image_preference" />
-            
-              -->
-    </PreferenceCategory>
 
     <PreferenceCategory
         android:orderingFromXml="true"

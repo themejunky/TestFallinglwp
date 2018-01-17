@@ -21,11 +21,6 @@ import java.util.Map;
 
 public class Settings extends PreferenceActivity implements
 		SharedPreferences.OnSharedPreferenceChangeListener,OnPreferenceClickListener {
-	
-	private MIP imagePreference1;
-	private MIP imagePreference2;
-	private MIP imagePreference3;
-	private MIP shareToPreference;
 
 
 	PreferenceCategory dialogBasedPrefCat;
@@ -47,18 +42,7 @@ public class Settings extends PreferenceActivity implements
 			admobbanner();
 		}
 
-		this.imagePreference1 = (MIP) this.findPreference("rate");
-		this.imagePreference1.setOnPreferenceClickListener(this);
-		this.imagePreference1.title = this.getResources().getString(
-				R.string.recommend1_title);
-		this.imagePreference1.mImage = R.drawable.rate;
-		
-		
-		this.imagePreference3 = (MIP) this.findPreference("more");
-		this.imagePreference3.setOnPreferenceClickListener(this);
-		this.imagePreference3.title = this.getResources().getString(
-				R.string.recommend3_title);
-		this.imagePreference3.mImage = R.drawable.more;
+
 
 		getPreferenceManager().getSharedPreferences()
 				.registerOnSharedPreferenceChangeListener(this);
@@ -175,7 +159,7 @@ public class Settings extends PreferenceActivity implements
 
 	
 	public boolean onPreferenceClick(Preference var1) {
-		if (var1 == this.imagePreference1) {
+		/*if (var1 == this.imagePreference1) {
 			System.out.println("imagePreference1 clicked!");
 			this.openLink(this.getString(R.string.recommend1_url));
 		} else if (var1 == this.imagePreference2) {
@@ -185,7 +169,7 @@ public class Settings extends PreferenceActivity implements
 		} else if (var1 == this.shareToPreference) {
 			this.shareThisApp();
 		}
-
+*/
 		return false;
 	}
 }

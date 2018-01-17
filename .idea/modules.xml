@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TestFallingHearts.iml" filepath="$PROJECT_DIR$/TestFallingHearts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestFallinglwp.iml" filepath="$PROJECT_DIR$/TestFallinglwp.iml" />
       <module fileurl="file://$PROJECT_DIR$/andengine/andengine.iml" filepath="$PROJECT_DIR$/andengine/andengine.iml" />
       <module fileurl="file://$PROJECT_DIR$/andengine_box2d/andengine_box2d.iml" filepath="$PROJECT_DIR$/andengine_box2d/andengine_box2d.iml" />
       <module fileurl="file://$PROJECT_DIR$/andenginelivewallpaperextension/andenginelivewallpaperextension.iml" filepath="$PROJECT_DIR$/andenginelivewallpaperextension/andenginelivewallpaperextension.iml" />
