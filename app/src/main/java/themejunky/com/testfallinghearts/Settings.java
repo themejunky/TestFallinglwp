@@ -21,15 +21,6 @@ import java.util.Map;
 
 public class Settings extends PreferenceActivity implements
 		SharedPreferences.OnSharedPreferenceChangeListener,OnPreferenceClickListener {
-
-
-	PreferenceCategory dialogBasedPrefCat;
-	
-	private void openLink(String var1) {
-		this.startActivity(new Intent("android.intent.action.VIEW", Uri
-				.parse(var1)));
-	}
-
 	@SuppressWarnings("deprecation")
 	@Override
 	protected void onCreate(Bundle icicle) {
@@ -37,22 +28,12 @@ public class Settings extends PreferenceActivity implements
 		setContentView(R.layout.adlayout); 
 		addPreferencesFromResource(R.xml.wallpaper_settings);
 		populatePreferencesDesc();
-		
-		if (checkForInternetConnection()) {
-			admobbanner();
-		}
-
-
-
 		getPreferenceManager().getSharedPreferences()
 				.registerOnSharedPreferenceChangeListener(this);
 		getPreferenceManager().setSharedPreferencesName(
 				WaterDropMain.SHARED_PREFS_NAME);
 	}
 
-	public void tst(String str) {
-		Toast.makeText(Settings.this, str, Toast.LENGTH_LONG).show();
-	}
 
 	public void populatePreferencesDesc() {
 		// Set up initial values for all list preferences
@@ -101,17 +82,6 @@ public class Settings extends PreferenceActivity implements
 		super.onDestroy();
 	}
 
-	
-	private void shareThisApp() {
-		String var1 = this.getString(R.string.share_title);
-		String var2 = this.getString(R.string.share_text_prefix);
-		String var3 = this.getString(R.string.share_text_content);
-		Intent var4 = new Intent("android.intent.action.SEND");
-		var4.setType("text/plain");
-		var4.putExtra("android.intent.extra.SUBJECT", var1);
-		var4.putExtra("android.intent.extra.TEXT", var2 + var3);
-		this.startActivity(Intent.createChooser(var4, this.getTitle()));
-	}
 
 	public boolean checkForInternetConnection() {
 
@@ -125,27 +95,7 @@ public class Settings extends PreferenceActivity implements
 			return false;
 	}
 	
-	
-	private void admobbanner() {
 
-
-		DisplayMetrics dm = getResources().getDisplayMetrics();
-
-		double density = dm.density * 160;
-		double x = Math.pow(dm.widthPixels / density, 2);
-		double y = Math.pow(dm.heightPixels / density, 2);
-		double screenInches = Math.sqrt(x + y);
-
-
-
-		LinearLayout adContainer = (LinearLayout) findViewById(R.id.ad_view);
-
-
-
-
-	}
-	
-	// @Override
 	public void onSharedPreferenceChanged(SharedPreferences sharedPreferences,
 			String key) {
 		Preference pref = findPreference(key);
