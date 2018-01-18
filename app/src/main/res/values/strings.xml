@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+
     <string name="wallpaper_description">Falling Hearts LiveWallpaper</string>
     <string name="wallpaper_settings">Falling Hearts LiveWallpaper</string>
     <string name="app_name">Falling Hearts LiveWallpaper</string>
@@ -21,30 +22,30 @@
     <string name="object_selection_type">Objects</string>
 
     <string name="rotation_direction_desc">Select Background</string>
-    
-    
-    
-    
-     
-    
-    
-    
-     <string name="ads_banner">ca-app-pub-5322508131338449/6005707414</string>
+
+
+
+
+
+
+
+
+    <string name="ads_banner">ca-app-pub-5322508131338449/6005707414</string>
     <string name="ads_interstitial">ca-app-pub-5322508131338449/7482440617</string>
-    
-     <string name="recommend1_url">market://details?id=com.lwp.falling</string>
+
+    <string name="recommend1_url">market://details?id=com.lwp.falling</string>
     <string name="recommend2_url">https://play.google.com</string>
     <string name="recommend3_url">market://search?q=pub:LiveWallpaperThemes</string>
-    
+
     <string name="recommend1_title">Please rate this app</string>
     <string name="recommend2_title">Recommend</string>
     <string name="recommend3_title">Get more live wallpapers</string>
-    
-     
-    
+
+
+
     <string name="category2">Rate this app! Download more</string>
-      <string name="recommend">Recommended Live Wallpapers</string>
-    
+    <string name="recommend">Recommended Live Wallpapers</string>
+
     <string name="description">App Description</string>
     <string name="more">More Apps</string>
     <string name="apply_theme">Apply Live Wallpaper</string>
@@ -52,9 +53,9 @@
     <string name="ratenr1">OK, give rating</string>
     <string name="ratenr2">No, I don\'t like the theme</string>
     <string name="ratetext">Do you like this theme? Then please give us a comment and rating</string>
-    
-    
-     <!-- messages for rating the application -->
+
+
+    <!-- messages for rating the application -->
     <string name="noti_rate_first_half">Please Rate</string>
     <string name="noti_rate_second_half">If you like this app, give it a review</string>
     <string name="noti_rate_title">Please rate our app</string>
@@ -62,15 +63,17 @@
     <string name="ratebutton">Rate app</string>
     <string name="ratebtn">Give Rating</string>
     <string name="ratebtnloading">Consider giving us a rating</string>
-   
-    
-     <string name="share_title">Share</string>
+
+
+    <string name="share_title">Share</string>
     <string name="share_text_prefix">share an interesting app to you:</string>
     <string name="share_text_content">https://play.google.com/store/apps/details?id=com.lwp.falling</string>
-  
-    
-    
-    
-    
 
-  </resources>
+
+
+
+
+
+
+
+</resources>

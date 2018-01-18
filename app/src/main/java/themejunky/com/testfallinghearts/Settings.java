@@ -25,7 +25,7 @@ public class Settings extends PreferenceActivity implements
 	@Override
 	protected void onCreate(Bundle icicle) {
 		super.onCreate(icicle);
-		setContentView(R.layout.adlayout); 
+		//setContentView(R.layout.adlayout);
 		addPreferencesFromResource(R.xml.wallpaper_settings);
 		populatePreferencesDesc();
 		getPreferenceManager().getSharedPreferences()

@@ -15,7 +15,7 @@
                 android:layout_marginLeft="30.0dip"
                 android:layout_marginRight="30.0dip"
                 android:layout_marginTop="7.0dip"
-                android:background="@drawable/change"
+
                 android:gravity="bottom|center"
                 android:paddingBottom="20dp"
                 android:paddingTop="10dp"
@@ -30,7 +30,7 @@
                 android:layout_marginLeft="30.0dip"
                 android:layout_marginRight="30.0dip"
                 android:layout_marginTop="7.0dip"
-                android:background="@drawable/change"
+
                 android:gravity="bottom|center"
                 android:paddingBottom="20dp"
                 android:paddingTop="10dp"
